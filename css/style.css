@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 375px){
+    body{
+        background: hsl(236, 33%, 92%)
+  
+    }
+
+.todo-list{
+    background:url(/image/bg-mobile-light.jpg);
+    align-items: center;
+    background-repeat: no-repeat;
+    
+   
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-left: 40px;
+    
+}
+h1 img{margin-left: 169px;
+
+}
+input{
+    padding: 15px 120px 15px 70px;
+    margin-left: 20px;
+    border-style: none;
+   background-color: #fff;
+   border-radius: 2px;
+   border-color:hsl(236, 33%, 92%);
+  margin-top: 1px;
+  
+}
+.inp-0{
+    margin-bottom: 1px;
+    border-radius: 3px;
+}
+
+.inp-1{
+   
+    margin-top: 35px;
+    border-radius: 3px;
+    text-decoration: line-through;
+    
+   
+}
+
+.inp-8{
+    margin-top: 20px;
+}
+p{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(183, 176, 176);
+}
+.input-container{
+    border-style: none;
+    border-radius: 5px;
+}
+
+}
